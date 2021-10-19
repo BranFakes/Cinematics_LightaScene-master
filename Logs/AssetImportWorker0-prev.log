@@ -1,0 +1,823 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16180 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/W0452315/Desktop/Cinematics_LightaScene-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49717
+Successfully changed project path to: C:/Users/W0452315/Desktop/Cinematics_LightaScene-master
+C:/Users/W0452315/Desktop/Cinematics_LightaScene-master
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/W0452315/Desktop/Cinematics_LightaScene-master/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2200 (ID=0x13ba)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002042 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1381ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (152ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.104899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1774 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2218.
+Total: 2.479500 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.100000 ms  DeleteObjects: 0.091900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Bed_Metal_01.mat
+  artifactKey: Guid(ae4076d094d20da4da7dc8fa3ae36015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Bed_Metal_01.mat using Guid(ae4076d094d20da4da7dc8fa3ae36015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1a1f269a46bdd249727e838c87c6e') in 0.212816 seconds 
+  Import took 0.216172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/M_BedBedding.mat
+  artifactKey: Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/M_BedBedding.mat using Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b34af46eafc2ccb1ecce19a163f899') in 0.216431 seconds 
+  Import took 0.219394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/desk_lamp_material.mat
+  artifactKey: Guid(0ad9ad3136edecf45af8e5c6bc9ea1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/desk_lamp_material.mat using Guid(0ad9ad3136edecf45af8e5c6bc9ea1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59edbe45b57c9a578cf8030c0fed45f') in 0.020108 seconds 
+  Import took 0.022858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/floor/Materials/lambert1.mat
+  artifactKey: Guid(5f4e13ad018640a4c8d8a222073ec51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/floor/Materials/lambert1.mat using Guid(5f4e13ad018640a4c8d8a222073ec51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39a691b41da0c563dbf78ce333d54f8') in 0.021628 seconds 
+  Import took 0.025859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/metal_sink.mat
+  artifactKey: Guid(68efabf25c070794bb02554cc4d94b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/metal_sink.mat using Guid(68efabf25c070794bb02554cc4d94b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83f53ed90997bc5113dfdc6c3cdcb67') in 0.057542 seconds 
+  Import took 0.060286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/level_objects_mat.mat
+  artifactKey: Guid(954c2e2b0b67a774481b80bb15a5a854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/level_objects_mat.mat using Guid(954c2e2b0b67a774481b80bb15a5a854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234b91b36716fe8024cac739bcf0f0c9') in 0.100026 seconds 
+  Import took 0.103212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Lamp_Off.mat
+  artifactKey: Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Lamp_Off.mat using Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfabf67bdba90e643b22052adc222f5') in 0.080384 seconds 
+  Import took 0.083971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/desk_lamp_mat OFF.mat
+  artifactKey: Guid(b57333dd7e66d8d4582bc0cc11d452ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/desk_lamp_mat OFF.mat using Guid(b57333dd7e66d8d4582bc0cc11d452ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44ae691121e71724f7d6a1048270803') in 0.317623 seconds 
+  Import took 0.324916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile04.mat
+  artifactKey: Guid(3e0f3092f0939da43909d61c7fba9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile04.mat using Guid(3e0f3092f0939da43909d61c7fba9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92d33e9fe699d020fb32e60184ffed2') in 0.097313 seconds 
+  Import took 0.100912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/wall/Materials/doorframes_mat.mat
+  artifactKey: Guid(4a07eb17452e0be4398aa22d30b4a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/wall/Materials/doorframes_mat.mat using Guid(4a07eb17452e0be4398aa22d30b4a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326cefe103bf94992da00f99d7499d7') in 0.088776 seconds 
+  Import took 0.092517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/Organs_mat.mat
+  artifactKey: Guid(c795e6a5f30ab7040b6923ebf453b162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/Organs_mat.mat using Guid(c795e6a5f30ab7040b6923ebf453b162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47692efba652fa13cbdc25854a8784a0') in 0.285525 seconds 
+  Import took 0.288373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Walllime02.mat
+  artifactKey: Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Walllime02.mat using Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293f60da1ea7bf750c80afd18455967f') in 0.135914 seconds 
+  Import took 0.138445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Door_01_G.mat
+  artifactKey: Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Door_01_G.mat using Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7566975f4b582aa750fa85783737b0be') in 0.088726 seconds 
+  Import took 0.091247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Materials/Mat_Lamp Red.mat
+  artifactKey: Guid(e04d73edf63afb844bfce4b2098abdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Lamp Red.mat using Guid(e04d73edf63afb844bfce4b2098abdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ece6e57f1daf41f32a85cf802ba3237') in 0.055076 seconds 
+  Import took 0.058169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/desk_lamp_mat ON.mat
+  artifactKey: Guid(26ecfea12cd2d5642b39c04289cdaa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/desk_lamp_mat ON.mat using Guid(26ecfea12cd2d5642b39c04289cdaa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2698fafeb548fa7b958f83fb5bb9032c') in 0.034052 seconds 
+  Import took 0.037112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/desk_chair_mat.mat
+  artifactKey: Guid(c5f6f45600c50db4381a809da4859f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/desk_chair_mat.mat using Guid(c5f6f45600c50db4381a809da4859f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82882ec55af70a651db377a65cd71b88') in 0.093804 seconds 
+  Import took 0.097050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Walllime01_C.mat
+  artifactKey: Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Walllime01_C.mat using Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9c224941c10f5d83c5514f4a138f98') in 0.043024 seconds 
+  Import took 0.045678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Door_02.mat
+  artifactKey: Guid(965ae51e311e04040ba53b636514e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Door_02.mat using Guid(965ae51e311e04040ba53b636514e0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633d43178340f5758a7a5ee8bb8a31f1') in 0.074660 seconds 
+  Import took 0.077434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Lamp 1.mat
+  artifactKey: Guid(ed0a913b7473e0043936c98119ccd785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Lamp 1.mat using Guid(ed0a913b7473e0043936c98119ccd785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648dfc6b6b5ed7c6aa4cd2e2dc9883a9') in 0.033516 seconds 
+  Import took 0.036386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/note_book_mat.mat
+  artifactKey: Guid(3dcea46a4420ba54d90040d5e46fc3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/note_book_mat.mat using Guid(3dcea46a4420ba54d90040d5e46fc3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eec4e181e7134a90e3f015378a56e5c') in 0.046110 seconds 
+  Import took 0.048599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/glass_jar_mat.mat
+  artifactKey: Guid(0a55260e7bd4a3340940f01c15e730c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/glass_jar_mat.mat using Guid(0a55260e7bd4a3340940f01c15e730c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd813b6084abfc8fbc357c95f79b5fe80') in 0.289421 seconds 
+  Import took 0.291898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Materials/bulb-off.mat
+  artifactKey: Guid(40151d9e94803ac4b965ea180a3c6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bulb-off.mat using Guid(40151d9e94803ac4b965ea180a3c6a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a781295ccc28e63b048cfed0c59e1554') in 0.018946 seconds 
+  Import took 0.021605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/Channel_lambert1_Diffuse_u1_v1.mat
+  artifactKey: Guid(63f431b8762829a4483d078945f3dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/Channel_lambert1_Diffuse_u1_v1.mat using Guid(63f431b8762829a4483d078945f3dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9973004efec00e8c85971aeb061ca098') in 0.016745 seconds 
+  Import took 0.019740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/wall/Materials/door_glass.mat
+  artifactKey: Guid(6a7b465e8d2553a408e9ff409d5368b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/wall/Materials/door_glass.mat using Guid(6a7b465e8d2553a408e9ff409d5368b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c194e4eb84d97c65e920e7bbe296ee') in 0.237599 seconds 
+  Import took 0.240291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Materials/Mat_Walllime02.mat
+  artifactKey: Guid(eab872468f08de34a97fb0ddfeda7043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Walllime02.mat using Guid(eab872468f08de34a97fb0ddfeda7043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0037c35c541e246b9272100bdbae2ba4') in 0.035352 seconds 
+  Import took 0.037896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Mat_Tile01s.mat
+  artifactKey: Guid(5dcd50ce19d6f9d4fbd2a05096235df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Tile01s.mat using Guid(5dcd50ce19d6f9d4fbd2a05096235df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424363c7bb2b9dd32fcfa181fe879aed') in 0.070222 seconds 
+  Import took 0.072807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Med_box_02.mat
+  artifactKey: Guid(b7d65f59199eb1b4d9eb24d0cb1854c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Med_box_02.mat using Guid(b7d65f59199eb1b4d9eb24d0cb1854c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32adc5c89a850f8d2865fb99ee62bc64') in 0.077503 seconds 
+  Import took 0.080533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/floor/Decals/drain_mat.mat
+  artifactKey: Guid(ea376580ff13fe64a894f43129bb9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/floor/Decals/drain_mat.mat using Guid(ea376580ff13fe64a894f43129bb9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e843444a99312eecf7f03e96456b79e6') in 0.311641 seconds 
+  Import took 0.314233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/cabinet_mat.mat
+  artifactKey: Guid(3ec2f26672b3d494fab094a9151488d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/cabinet_mat.mat using Guid(3ec2f26672b3d494fab094a9151488d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750eadb56f49f214c536bd22eaced6a7') in 0.054510 seconds 
+  Import took 0.057249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Door_01.mat
+  artifactKey: Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Door_01.mat using Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c06acec2bb723800ef61ddffe89fb8') in 0.030041 seconds 
+  Import took 0.033112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Bed_Metal_01s.mat
+  artifactKey: Guid(80cb81cea798afb43987837e11469c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Bed_Metal_01s.mat using Guid(80cb81cea798afb43987837e11469c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b3ea0c59208b2fbc7e34194dfe1088') in 0.113504 seconds 
+  Import took 0.116981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/corpse_drawer.mat
+  artifactKey: Guid(e92ede644664104479d48f19eed8af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/corpse_drawer.mat using Guid(e92ede644664104479d48f19eed8af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ed1331ec61557947503d021abf2813') in 0.074731 seconds 
+  Import took 0.077754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Bed_Metal_02.mat
+  artifactKey: Guid(0df69e408200d0d478fe1f11554c6218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Bed_Metal_02.mat using Guid(0df69e408200d0d478fe1f11554c6218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c4dcd74ca16584518f9815f2772f4d') in 0.035364 seconds 
+  Import took 0.038622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Lamp.mat
+  artifactKey: Guid(6a26c29b0186b3949a52130085310c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Lamp.mat using Guid(6a26c29b0186b3949a52130085310c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b494f205a0b07fcb2e4a2c611c75fd5') in 0.033876 seconds 
+  Import took 0.037674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/floor/Materials/floor_01_mat.mat
+  artifactKey: Guid(a7cc9c1f9de481c4bb6d14d30a6f58b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/floor/Materials/floor_01_mat.mat using Guid(a7cc9c1f9de481c4bb6d14d30a6f58b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b618f907b3f09b8a33f1ec621b8ccc3d') in 0.387705 seconds 
+  Import took 0.392228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/autopsy_table.mat
+  artifactKey: Guid(dd841d143bf6ef24a975a5ea682538d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/autopsy_table.mat using Guid(dd841d143bf6ef24a975a5ea682538d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a37e783574a5702b6995d4c89cd6c') in 0.139511 seconds 
+  Import took 0.150168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Materials/Mat_Tile02s.mat
+  artifactKey: Guid(2db58eaa8b9c3cb43b03e03e411d696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Tile02s.mat using Guid(2db58eaa8b9c3cb43b03e03e411d696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e961ce51ee82160a6d928c34d1ce418') in 0.038727 seconds 
+  Import took 0.043476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile01.mat
+  artifactKey: Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile01.mat using Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb8a143a3a20349c6eedec5f79fbda4') in 0.032664 seconds 
+  Import took 0.035828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/floor/Materials/ceiling_01_mat.mat
+  artifactKey: Guid(9d0b89dd5f51ec6428c88bb296cfa117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/floor/Materials/ceiling_01_mat.mat using Guid(9d0b89dd5f51ec6428c88bb296cfa117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7662cc0fa67c72d7302de04223e758c0') in 0.266608 seconds 
+  Import took 0.277817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027202 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/level_objects2_mat.mat
+  artifactKey: Guid(cfc18c935482f834ab23dced70927e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/level_objects2_mat.mat using Guid(cfc18c935482f834ab23dced70927e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aac29516c851bf6390cec88c4bfc14') in 0.180583 seconds 
+  Import took 0.185308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Materials/Emissive White.mat
+  artifactKey: Guid(dfe09ad4e37093e40abfc42a0da90dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Emissive White.mat using Guid(dfe09ad4e37093e40abfc42a0da90dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e986f951252cce9a1db4bfde8b0fecb') in 0.042119 seconds 
+  Import took 0.044831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile03.mat
+  artifactKey: Guid(bbae575f7236ecf4f817931742f3d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile03.mat using Guid(bbae575f7236ecf4f817931742f3d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed1995fe8459c754e1636942e76684d') in 0.030901 seconds 
+  Import took 0.033513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Materials/Mat_Walllime01_Cs.mat
+  artifactKey: Guid(58c028e93e0c7ac4bbc6159a972e7f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Walllime01_Cs.mat using Guid(58c028e93e0c7ac4bbc6159a972e7f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3593753e8071177abb586f35432de84b') in 0.028993 seconds 
+  Import took 0.031714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/floor/Materials/Materials/floor_01_basecolor.mat
+  artifactKey: Guid(682b78c3b471bbf4992e8264a0589bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/floor/Materials/Materials/floor_01_basecolor.mat using Guid(682b78c3b471bbf4992e8264a0589bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e733ddec7c3491d8523698a932a91677') in 0.031475 seconds 
+  Import took 0.034032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/lambert1.mat
+  artifactKey: Guid(8019f72a62567f541b827d0a2816d4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/lambert1.mat using Guid(8019f72a62567f541b827d0a2816d4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be73a9249def8423567b2a345cc9017') in 0.012868 seconds 
+  Import took 0.015475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile02.mat
+  artifactKey: Guid(6eedf1229b2548749afd34673f053a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Tile02.mat using Guid(6eedf1229b2548749afd34673f053a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aa992e7ff1d30c758a1ba3c01fbd3a') in 0.018350 seconds 
+  Import took 0.021290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Med_box_01.mat
+  artifactKey: Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Models/Materials/Mat_Med_box_01.mat using Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03931c06bc74d2c1a8be24540119efd') in 0.027430 seconds 
+  Import took 0.031186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Z_Morgue Room PBR/Models/props/Materials/general_chrome.mat
+  artifactKey: Guid(e71d2e1933914ad47a5eacf6e2806cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_Morgue Room PBR/Models/props/Materials/general_chrome.mat using Guid(e71d2e1933914ad47a5eacf6e2806cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a1f69fe46a8daee47520703ece0ad2') in 0.018704 seconds 
+  Import took 0.022206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1514ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (739ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.457500 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.102000 ms MarkObjects: 2.073400 ms  DeleteObjects: 0.017800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1444ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (854ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (612ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 1.814600 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.572700 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.353 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1353ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (339ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1748 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 1.851000 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.625100 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2093.740245 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp.png
+  artifactKey: Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp.png using Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aca6a08371ae90ef1097f664ea406d') in 0.127085 seconds 
+  Import took 0.130416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.822913 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp.png
+  artifactKey: Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp.png using Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba92549e61627a00511412a5e5bb02b') in 0.016552 seconds 
+  Import took 0.019668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.365675 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_M.png
+  artifactKey: Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_M.png using Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53811f5ad7eb625a956dcd319d271982') in 0.018690 seconds 
+  Import took 0.021545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.400073 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_M.png
+  artifactKey: Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_M.png using Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2676de63b6b17c52009670cab6b66b') in 0.018168 seconds 
+  Import took 0.020878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.977664 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_N.png
+  artifactKey: Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_N.png using Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f3269eef522180d338324d318ea969') in 0.022341 seconds 
+  Import took 0.025627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003500 seconds.
+  path: Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_N.png
+  artifactKey: Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Z_HospitalHorrorPack_DNKDEV/Textures/T_Lamp_N.png using Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f3269eef522180d338324d318ea969') in 0.016661 seconds 
+  Import took 0.019507 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.004039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 1.990300 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.721300 ms  DeleteObjects: 0.026000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
